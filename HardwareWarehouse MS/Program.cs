@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Threading;
+using HardwareWarehouse_MS.Entities;
 using WarehouseManagementSystemAPI;
 
 namespace HardwareWarehouse_MS
 {
-  internal class Program
+  public class Program
   {
     private const int BatchSize = 5;
 

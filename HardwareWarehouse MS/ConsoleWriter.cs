@@ -1,4 +1,5 @@
 ﻿using System;
+using HardwareWarehouse_MS.Entities;
 using WarehouseManagementSystemAPI;
 
 namespace HardwareWarehouse_MS

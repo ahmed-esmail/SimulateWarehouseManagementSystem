@@ -1,4 +1,4 @@
-﻿namespace HardwareWarehouse_MS
+﻿namespace HardwareWarehouse_MS.Entities
 {
   public class Drill : HardwareItem, IDrill
   {

@@ -1,6 +1,6 @@
 ﻿using WarehouseManagementSystemAPI;
 
-namespace HardwareWarehouse_MS
+namespace HardwareWarehouse_MS.Entities
 {
   public abstract class HardwareItem : IEntityPrimaryProperties, IEntityAdditionalProperties
   {
