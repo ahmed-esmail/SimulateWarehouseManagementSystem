@@ -8,9 +8,8 @@ namespace HardwareWarehouse_MS
     public static void WriteValuesInQueueToScreen(CustomQueue<HardwareItem> hardwareItems)
     {
       foreach (var hardwareItem in hardwareItems)
-      {
-        Console.WriteLine($"{hardwareItem.Id,-6}{hardwareItem.Name,-15}{hardwareItem.Type,-20}{hardwareItem.Quantity,10}{hardwareItem.UnitValue,10}");
-      }
+        Console.WriteLine(
+          $"{hardwareItem.Id,-6}{hardwareItem.Name,-15}{hardwareItem.Type,-20}{hardwareItem.Quantity,10}{hardwareItem.UnitValue,10}");
     }
 
     public static string FieldHeadings()
