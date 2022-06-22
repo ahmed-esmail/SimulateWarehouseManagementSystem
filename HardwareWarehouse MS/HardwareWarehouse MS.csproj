@@ -39,6 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ConsoleWriter.cs" />
         <Compile Include="Entities\Drill.cs" />
         <Compile Include="Entities\Hammer.cs" />
         <Compile Include="Entities\HardwareItem.cs" />

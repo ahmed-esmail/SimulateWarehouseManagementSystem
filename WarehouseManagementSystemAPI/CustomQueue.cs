@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace WarehouseManagementSystemAPI
 {
-  // public delegate void QueueEventHandler<in T, in U>(T sender, U eventArgs); 
+  public delegate void QueueEventHandler<in T, in U>(T sender, U eventArgs); 
   public class CustomQueue<T> where T: IEntityPrimaryProperties, IEntityAdditionalProperties
   {
     private readonly Queue<T> _queue;
-    public event EventHandler<QueueEventArgs> CustomQueueEvent; 
+    public event QueueEventHandler<CustomQueue<T>, QueueEventArgs> CustomQueueEvent; 
     public CustomQueue()
     {
       _queue = new Queue<T>();
