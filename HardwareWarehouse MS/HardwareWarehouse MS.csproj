@@ -39,6 +39,15 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Entities\Drill.cs" />
+        <Compile Include="Entities\Hammer.cs" />
+        <Compile Include="Entities\HardwareItem.cs" />
+        <Compile Include="Entities\IDrill.cs" />
+        <Compile Include="Entities\IHammer.cs" />
+        <Compile Include="Entities\ILadder.cs" />
+        <Compile Include="Entities\IPaintBrush.cs" />
+        <Compile Include="Entities\Ladder.cs" />
+        <Compile Include="Entities\PaintBrush.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
